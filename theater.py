@@ -1,4 +1,4 @@
-from mail import main
+from MAIN import MAIN
 class theater(main):
     def __init__():
         super.__init__(type, location, owner, entrance_payment)
