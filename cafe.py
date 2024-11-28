@@ -3,10 +3,14 @@ from MAIN import MAIN
 class Cafe(MAIN):
     def __init__(self, menu=[]):
         super().__init__(self, 'cafe')
-        self._menu = menu
+        self.__menu = menu
     
+    @property
+    def menu(self):
+        return self.__menu
+
     def display_menu(self):
-        return self._menu
+        return self.menu
     
     def serve_food(self,food):
         return f"{food} подано."
