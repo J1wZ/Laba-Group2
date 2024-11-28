@@ -1,5 +1,5 @@
 from MAIN import MAIN
-class theater(main):
+class theater(MAIN):
     def __init__():
         super.__init__(type, location, owner, entrance_payment)
         self.show = 'шоу по умолчанию'
