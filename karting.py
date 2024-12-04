@@ -15,3 +15,5 @@ class Carousel_karting(MAIN):
 
     def add_Carousel_karting():
         return 'добавить время катания на картах'
+
+#

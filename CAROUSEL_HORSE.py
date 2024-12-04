@@ -15,3 +15,5 @@ class Carousel_horse(MAIN):
 
     def add_Carousel_horse():
         return 'добавить время катания на каруселе лошадки'
+
+#
